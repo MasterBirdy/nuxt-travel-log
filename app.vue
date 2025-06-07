@@ -1,6 +1,11 @@
 <template>
     <div>
-        <NuxtRouteAnnouncer />
-        <NuxtWelcome />
+        <h1 class="font-bold text-3xl underline">
+            Hello world!
+        </h1>
+        <button class="btn btn-secondary">
+            Oops
+        </button>
+        <Icon name="tabler:map" style="color: black" />
     </div>
 </template>
