@@ -8,7 +8,8 @@ export default withNuxt(
         // Or customize the stylistic rules
         stylistic: {
             indent: 4, // 4, or 'tab'
-            quotes: "double", // or 'double'
+            quotes: "double", // or 'double',
         },
+        yaml: false,
     }),
 )
